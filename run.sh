@@ -1,0 +1,1 @@
+python train.py --net resnet50 --img-height 384 --img-width 128 --batch-size 24 --lr 5.0e-2 --dataset npdetected --noise-dataset veri776 --paste-dataset veri776 --noise-interval 10 --height-ratio 0.1 --gpus 0 --epochs 5,155 --erasing 0.40 --freeze stem --dataset-root /dev/shm --ema-ratio 0.80 --ema-extra 25
